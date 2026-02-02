@@ -1,0 +1,62 @@
+
+    body {
+      background-color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      
+    }
+    .review-section {
+      max-width: 600px;
+      margin-top: 10px;
+      margin: 50px auto;
+      background: #fffffd;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1.title {
+      font-size: 200%;
+      text-align: center;
+      margin-top: 10px;
+      font-weight: 600;
+      color: #0d6efd;
+    }
+    .label {
+      font-weight: 500;
+      color: #333;
+    }
+    .value {
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+      color: #555;
+    }
+    .btn-primary {
+      width: 100px;
+    }
+        .navbar {
+      box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    }
+
+    .navbar-brand {
+      font-weight: 800;
+      letter-spacing: 0.5px;
+    }
+
+    .nav-link {
+      font-weight: 600;
+      position: relative;
+    }
+
+    .nav-link:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: white;
+      transition: width 0.3s ease;
+    }
+
+    .nav-link:hover:after {
+      width: 100%;
+    }

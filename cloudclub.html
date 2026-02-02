@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NYP Cloud Club</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="club.css">
+  <link rel="icon" href="sit-icon-new-2018.png">
+
+  <style>
+      .hero {
+      background: url('Cloudlogo2.png') no-repeat, linear-gradient(to right, transparent 0%, #cfe5fa 0%);
+      background-size: 20%;
+      background-position: 20%;
+      padding: 80px 20px;
+      color: #212529;
+      text-align: center;
+      -webkit-text-stroke: 7px #cfe5fa;
+      paint-order: stroke fill;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="Homepage.html"><i class="fas fa-users me-2"></i>SIT Club</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="Homepage.html"><i class="fas fa-home me-1"></i>Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="form.html"><i class="fas fa-user-plus me-1"></i> Register</a></li>
+        <li class="nav-item"><a class="nav-link" href="Switftclub.html"><i class="fas fa-info-circle me-1"></i>About Dev Swift Club</a></li>
+        <li class="nav-item"><a class="nav-link" href="Ladiesclub.html"><i class="fas fa-info-circle me-1"></i>About Ladies in Tech Club</a></li>
+        <li class="nav-item"><a class="nav-link" href="cloudclub.html"><i class="fas fa-info-circle me-1"></i>About Cloud Club</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1 class="display-5 animate-on-scroll">Join the NYP Cloud Club!</h1>
+  <p class="lead animate-on-scroll">Subcom & EXCO 2025 Applications are now open!</p>
+</div>
+
+<div class="container py-5">
+  <h2 class="animate-on-scroll">About Us</h2>
+  <p class="animate-on-scroll">NYP Cloud welcomes all students interested in expanding their knowledge on Cloud Computing regardless of expertise. We aim to create an engaging atmosphere where people can learn and grow together.</p>
+
+  <h2 class="animate-on-scroll mt-5">Roles Available</h2>
+  <ul class="list-group list-group-flush">
+    <li class="animate-on-scroll"><strong>Events</strong>: Plan and run activities that make an impact in the NYP community.</li>
+    <li class="animate-on-scroll"><strong>Publicity</strong>: Design visuals and help spread the word across platforms.</li>
+    <li class="animate-on-scroll"><strong>Operations</strong>: Manage event logistics and our social media channels.</li>
+  </ul>
+
+  <h2 class="animate-on-scroll mt-5">Upcoming Events</h2>
+  <div class="table-responsive animate-on-scroll">
+  <table class="table-bordered">
+    <thead class="table">
+      <tr>
+        <th scope="col">Event</th>
+        <th scope="col">Description</th>
+        <th scope="col">Date & Time</th>
+      
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Web Hosting Fundamentals</strong></td>
+        <td>Learn to access the AWS Management Console via AWS Learner Lab, practice essential Linux commands, and deploy a basic site.</td>
+        <td>
+          <time datetime="2025-09-10">Sep 10, 2025</time><br>
+          6:30 PM – 8:30 PM
+        </td>
+        
+      </tr>
+      <tr>
+        <td><strong>Terraform Fundamentals Workshop</strong></td>
+        <td>Intro to Terraform: write infrastructure as code and provision resources in a hands-on lab.</td>
+        <td>
+          <time datetime="2025-09-24">Sep 24, 2025</time><br>
+          6:30 PM – 9:00 PM
+        </td>
+        
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2 class="animate-on-scroll mt-5">Why Join?</h2>
+  <ul class="list-unstyled">
+    <li class="animate-on-scroll">✅ Gain experience with internal competitions.</li>
+    <li class="animate-on-scroll">✅ Connect with peers, mentors, and industry partners.</li>
+    <li class="animate-on-scroll">✅ Boost your edge for competitions like WorldSkills!</li>
+    <li class="animate-on-scroll">✅ Fast-track to leadership roles in EXCO!</li>
+  </ul>
+
+  <div class="animate-on-scroll mt-4">
+    <p>Ready to make an impact?</p>
+    <a href="cloudform.html" target="_blank" class="btn btn-blue">Click here to apply now</a>
+    <p class="mt-3">Join our Discord community: <a href="https://discord.com/invite/JV9h5YbPBX" target="_blank">https://discord.com/invite/JV9h5YbPBX</a></p>
+  </div>
+</div>
+
+<footer class="bg-dark text-white py-4">
+  <div class="container text-center">
+    <p>Follow us on:</p>
+    <a href="https://www.instagram.com/nyp.sit/" class="text-white mx-2">Instagram</a>
+    <a href="https://t.me/s/nypsit" class="text-white mx-2">Telegram</a>
+    <a href="https://www.tiktok.com/@nypsit" class="text-white mx-2">TikTok</a>
+    <p class="mt-3 mb-0">&copy; 2025 SIT Club</p>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const elements = document.querySelectorAll('.animate-on-scroll');
+    let delayIndex = 0;
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate__animated', 'animate__fadeInUp');
+          entry.target.style.animationDelay = `${delayIndex * 0.2}s`;
+          delayIndex++;
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+
+    elements.forEach(el => observer.observe(el));
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
